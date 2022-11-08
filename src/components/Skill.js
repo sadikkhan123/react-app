@@ -4,7 +4,7 @@ const Skill = () => {
   return (
    <>
     <section className=" ">
-  <div className="container mt-9 mx-auto flex px-1 md:flex-row flex-col  items-center">
+  <div className="container mt-9 mx-auto flex px-1 md:flex-row flex-col  items-center"id='skills'>
     <div className="container px-10 py-8  mb-2 ">
       <div className="grid grid-cols-5 md:grid-cols-12 gap-2">
         <svg

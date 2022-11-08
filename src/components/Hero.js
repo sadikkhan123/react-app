@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <><section className="text-gray-600 body-font mt-24">
+    <><section className="text-gray-600 body-font -mt-16 " id='hero'>
     <div className="container mx-auto flex px-5 py-2 md:flex-row flex-col items-center">
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       <h1 className="text-2xl ">Hi,<br/>Myself <span className="text-[#4FE143]">Sadik Khan</span>,<br />I'm a </h1><br/>
