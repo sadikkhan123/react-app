@@ -11,7 +11,7 @@ const Hero = () => {
        my future in software development by contrubuting as much as i can and via using new web technologies and frameworks.
       </p>
         <div className="flex justify-center">
-            <button className="ml-4 outline inline-flex text-gray-700 bg-[#4FE143] border-0 py-2 px-6 focus:outline-none rounded text-lg  hover:bg-white hover:text-[#4FE143]">Button</button>
+            <button className="ml-4 outline inline-flex text-gray-700 bg-[#4FE143] border-0 py-2 px-6 focus:outline-none rounded text-lg  hover:bg-white hover:text-[#4FE143]">Download cv</button>
         </div>
       </div>
       <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
