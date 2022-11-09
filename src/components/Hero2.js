@@ -17,7 +17,7 @@ const Hero2 = () => {
 </svg>
 
            </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col-reverse md:items-start md:text-left items-center text-center ">
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center ">
           <h2 className="title-font sm:text-2xl text-3xl mb-4 font-medium text-justify justify-center  text-[#4FE143]">
        A bit more about me !
       </h2>
