@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="container mx-auto flex px-5 py-2 md:flex-row flex-col items-center">
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       <h1 className="text-2xl ">Hi,<br/>Myself <span className="text-[#4FE143]">Sadik Khan</span>,<br />I'm a </h1><br/>
-      <p className="mb-8 leading-relaxed  w-2/3 justify-center text-justify  ">
+      <p className="mb-8 leading-relaxed  w-2/3 justify-center   ">
        fullstack web developer,enthusiastic web framework user and a creative ui ux designer currently shaping 
        my future in software development by contrubuting as much as i can and via using new web technologies and frameworks.
       </p>
