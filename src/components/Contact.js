@@ -1,5 +1,6 @@
 import React from 'react'
-
+// for backend php is used and data is sent through the api 
+// the form validation is done in which only yahoo gmail and outlook mail users can send the mail
 const Contact = () => {
     function handleSubmit(e) {
       e.preventDefault();
@@ -13,7 +14,7 @@ const Contact = () => {
         window.alert("Please fill the details carefully");
         return false;
       }
-
+// form validation for the website
       if(email.value.includes("@") === false) {
         alert("Enter valid email.");
         return false;
@@ -51,7 +52,8 @@ const Contact = () => {
     }
   return (
     <>
-   <section className="text-gray-600 body-font relative" id='contact'>
+    {/* contact form  */}
+   <section data-aos="fade-up" className=" bg-[#121316] text-gray-600 body-font relatives" id='contact'>
   <div className="container px-5 py-14 mx-auto flex sm:flex-nowrap flex-wrap">
     <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
       <iframe
@@ -67,9 +69,9 @@ const Contact = () => {
         style={{ filter: "grayscale(0) contrast(1) opacity(0.6)" }}
       />
       
-      <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+      <div className=" relative flex flex-wrap py-6 rounded shadow-md bg-[#121316]">
         <div className="lg:w-1/2 px-6">
-          <h2 className="title-font font-semibold text-[#4FE143]  tracking-widest text-xs">
+          <h2 className="title-font font-semibold text-[#4FE143]  tracking-widest text-xs ">
             ADDRESS
           </h2>
           <p className="mt-1">
@@ -88,7 +90,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
-    <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full  md:mt-0">
+    <div className="lg:w-1/3 md:w-1/2  flex flex-col md:ml-auto w-full  md:mt-0">
       <h2 className="text-[#4FE143]  text-2xl mb-1 font-medium title-font">
         Feedback
       </h2>
@@ -101,7 +103,7 @@ const Contact = () => {
           type="text"
           id="name"
           name="name"
-          className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+          className="w-full  rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
         />
       </div>
       <div className="relative mb-4">
@@ -112,7 +114,7 @@ const Contact = () => {
           type="email"
           id="email"
           name="email"
-          className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+          className="w-full  rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
         />
       </div>
       <div className="relative mb-4">
@@ -122,7 +124,7 @@ const Contact = () => {
         <textarea
           id="message"
           name="message"
-          className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+          className="w-full  rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
           defaultValue={""}
         />
       </div>

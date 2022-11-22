@@ -7,9 +7,11 @@ import Hero2 from "./components/Hero2";
 import Navbar from "./components/Navbar";
 import Skill from "./components/Skill";
 function App() {
+
   return (
-    <div className="App overflow-hidden">
-    <Navbar/>
+   
+       <div className="bg-[#121316] overflow-hidden">
+    <Navbar />
     <Hero/>
     <Hero2/>
     <Skill/>

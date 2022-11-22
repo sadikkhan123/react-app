@@ -8,3 +8,4 @@ module.exports = {
   },
   plugins: [],
 }
+// tailwind file configuration

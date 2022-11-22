@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## tailwind 
+in this website tailwind is used it is a css framework
+
+## spa app
+it is a single page application without react router dom 
+
+
 ## Available Scripts
 
 In the project directory, you can run:
