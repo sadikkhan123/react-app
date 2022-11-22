@@ -128,7 +128,7 @@ const Contact = () => {
           defaultValue={""}
         />
       </div>
-      <button onClick={handleSubmit} className="rounded-md outline bg-[#4FE143] border-0 py-2 px-6  hover:bg-white hover:text-[#4FE143] text-lg">
+      <button onClick={handleSubmit} className="text-white rounded-md outline bg-[#4FE143] border-0 py-2 px-6  hover:bg-white hover:text-[#4FE143] text-lg">
         submit
       </button>
     </div>
