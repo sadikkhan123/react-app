@@ -14,13 +14,7 @@ const Hero = () => {
        fullstack web developer,enthusiastic web framework user and a creative ui ux designer currently shaping 
        my future in software development by contrubuting as much as i can and via using new web technologies and frameworks.
       </p>
-        <div className="flex justify-center">
-<<<<<<< HEAD
-            {/* <button className="ml-4 outline inline-flex text-gray-700 bg-[#4FE143] border-0 py-2 px-6 focus:outline-none rounded text-lg  hover:bg-white hover:text-[#4FE143]">Download cv</button> */}
-=======
-            <button className="ml-4 outline inline-flex text-white bg-[#4FE143] border-0 py-2 px-6 focus:outline-none rounded text-lg  hover:bg-white hover:text-[#4FE143]">Download cv</button>
->>>>>>> refs/remotes/origin/main
-        </div>
+      
       </div>
       <div data-aos="fade-left"
      data-aos-offset="300"

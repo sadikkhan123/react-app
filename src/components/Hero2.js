@@ -20,15 +20,11 @@ const Hero2 = () => {
 </svg>
 
            </div>
-<<<<<<< HEAD
           <div data-aos="fade-left"
-    //  data-aos-offset="300"
+     data-aos-offset="300"
      data-aos-easing="ease-in-sine" className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center ">
           <h2 className="title-font sm:text-2xl text-3xl md:mb-4 font-medium text-justify justify-center  text-[#4FE143]">
-=======
-          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center ">
-          <h2 className="title-font sm:text-2xl text-3xl mb-4 font-medium text-justify justify-center  text-[#4FE143]">
->>>>>>> refs/remotes/origin/main
+            
        A bit more about me !
       </h2>
       <p className="mb-8 leading-relaxed  w-2/3 justify-center  ">
@@ -36,10 +32,8 @@ const Hero2 = () => {
        never thought that there is alot going into the development process and javascript is so powerfull as i 
        started development i come across these js frame works which help me in my development process even as of now i am learning aslo backend
        has so many things to do in web development with so many languages and frameworks like php has (laravel, CodeIgniter, cakephp, etc)
-       Python(fastapi, django, flask) javascript(nodejs, expressjs, nestjs..) etc....
-
-      
-      </p>
+       Python(fastapi, django, flask) javascript(nodejs, expressjs, nestjs..) etc....</p>
+     
       <div className="flex lg:flex-row md:flex-col">
      
             </div>
