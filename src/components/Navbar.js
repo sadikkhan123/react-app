@@ -9,9 +9,9 @@ const Navbar = () => {
 
   return (
     <>
-   <div className='  text-white z-[100] fixed w-full flex justify-center items-center md:pt-10 '>
+   <div className='  text-white z-[100] fixed w-full flex justify-center items-center md:pt-10 md:p-2 '>
       <div className='w-full md:w-auto md:rounded-full bg-[rgba(31,32,35,.8);] items-center justify-between bg-opacity-90 backdrop-blur-sm h-10 gap-5 flex pl-1' >
-      <img class="w-10 h-10 rounded-full hover:scale-[3] hover:rounded" src="sadik.jpeg" alt="Rounded avatar"></img>
+      <img className="w-10 h-10 rounded-full hover:scale-[3] hover:rounded" src="sadik.jpeg" alt="Rounded avatar"></img>
       <div className='flex justify-center text-center cursor-pointer '>
       
           <svg
@@ -28,15 +28,15 @@ const Navbar = () => {
           <a href='#hero'><h1 className='text xl '>sadikkhan</h1></a>
         </div>
         <ul className='hidden md:flex gap-4 items-center pr-1'>
-        <a href='https://www.linkedin.com/in/sadik-khan-4b3ba9255/'><li className='hover:text-[#4FE143] active:text-[#4FE143] cursor-pointer'>linkedin</li></a>
-          <a href='https://github.com/sadikkhan123/'><li className='hover:text-[#4FE143] active:text-[#4FE143]  cursor-pointer'>github</li></a>
-          <a href='https://www.instagram.com/sadikkhan_007/'><li className='hover:text-[#4FE143] active:text-[#4FE143] cursor-pointer'>instagram</li> </a>
-          <a href='#contact'><li className='hover:text-[#4FE143] active:text-[#4FE143] cursor-pointer'>contact</li></a>
-          <a href='cv.pdf'download><button className="ml-4 outline inline-flex text-gray-700 bg-[#4FE143] border-0 py-2 px-6 focus:outline-none rounded-full text-sm  hover:bg-white hover:text-[#4FE143]">Download cv</button></a>
+        <a href='https://www.linkedin.com/in/sadik-khan-4b3ba9255/'><li className='hover:text-[#0014a8] active:text-[#0014a8] cursor-pointer'>linkedin</li></a>
+          <a href='https://github.com/sadikkhan123/'><li className='hover:text-[#0014a8] active:text-[#0014a8]  cursor-pointer'>github</li></a>
+          <a href='https://www.instagram.com/sadikkhan_007/'><li className='hover:text-[#0014a8] active:text-[#0014a8] cursor-pointer'>instagram</li> </a>
+          <a href='#contact'><li className='hover:text-[#0014a8] active:text-[#0014a8] cursor-pointer'>contact</li></a>
+          <a href='cv.pdf'download><button className=" text-white ml-4 outline inline-flex bg-[#0014a8]  py-2 px-6 focus:outline-none rounded-full text-sm  hover:bg-white hover:text-[#0014a8]">Download cv</button></a>
         </ul>
         
         <div onClick={handleMenu} className='md:hidden'>
-          {!menu ? <i class="fa-solid fa-bars"></i> : <i class="fa-solid fa-close"></i>}
+          {!menu ? <i className="fa-solid fa-bars"></i> : <i className="fa-solid fa-close"></i>}
 
         </div>
 
@@ -49,7 +49,7 @@ const Navbar = () => {
           <a href='https://github.com/sadikkhan123/'><li className='pt-10 '>github</li></a>
           <a href='https://www.instagram.com/sadikkhan_007/'><li className='pt-10 '>instagram</li></a>
           <a href='#contact'><li className='pt-10 pb-10'>contact</li></a>
-          <a href='cv.pdf'download><button className="ml-4 outline inline-flex text-gray-700 bg-[#4FE143] border-0 py-2 px-6 focus:outline-none rounded text-sm  hover:bg-white hover:text-[#4FE143]">Download cv</button></a>
+          <a href='cv.pdf'download><button className="ml-4 outline inline-flex text-white bg-[#0014a8] border-0 py-2 px-6 focus:outline-none rounded text-sm  hover:bg-white hover:text-[#0014a8]">Download cv</button></a>
         </ul>
       </div>
 

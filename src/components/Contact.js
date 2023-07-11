@@ -1,7 +1,12 @@
 import React from 'react'
+
 // for backend php is used and data is sent through the api 
 // the form validation is done in which only yahoo gmail and outlook mail users can send the mail
+
 const Contact = () => {
+
+  
+
     function handleSubmit(e) {
       e.preventDefault();
       const name = document.querySelector("#name"),
@@ -53,7 +58,7 @@ const Contact = () => {
   return (
     <>
     {/* contact form  */}
-   <section data-aos="fade-up" className=" bg-[#121316] text-gray-600 body-font relatives" id='contact'>
+   <section  className=" text-gray-600 body-font relatives" id='contact'>
   <div className="container px-5 py-14 mx-auto flex sm:flex-nowrap flex-wrap">
     <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
       <iframe
@@ -69,9 +74,9 @@ const Contact = () => {
         style={{ filter: "grayscale(0) contrast(1) opacity(0.6)" }}
       />
       
-      <div className=" relative flex flex-wrap py-6 rounded shadow-md bg-[#121316]">
+      <div className=" relative flex flex-wrap py-6 rounded shadow-md bg-white">
         <div className="lg:w-1/2 px-6">
-          <h2 className="title-font font-semibold text-[#4FE143]  tracking-widest text-xs ">
+          <h2 className="title-font font-semibold text-[#0014a8]  tracking-widest text-xs ">
             ADDRESS
           </h2>
           <p className="mt-1">
@@ -79,11 +84,11 @@ const Contact = () => {
           </p>
         </div>
         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-          <h2 className="title-font font-semibold text-[#4FE143]  tracking-widest text-xs">
+          <h2 className="title-font font-semibold text-[#0014a8]  tracking-widest text-xs">
             EMAIL
           </h2>
           <a href="mailto:" className="leading-relaxed cursor-pointer">sadikkhalidkhan@gmail.com</a>
-          <h2 className="title-font font-semibold text-[#4FE143] tracking-widest text-xs mt-4">
+          <h2 className="title-font font-semibold text-[#0014a8] tracking-widest text-xs mt-4">
             PHONE
           </h2>
           <p className="leading-relaxed">8788413295</p>
@@ -91,7 +96,7 @@ const Contact = () => {
       </div>
     </div>
     <div className="lg:w-1/3 md:w-1/2  flex flex-col md:ml-auto w-full  md:mt-0">
-      <h2 className="text-[#4FE143]  text-2xl mb-1 font-medium title-font">
+      <h2 className="text-[#0014a8]  text-2xl mb-1 font-medium title-font">
         Feedback
       </h2>
       
@@ -128,7 +133,7 @@ const Contact = () => {
           defaultValue={""}
         />
       </div>
-      <button onClick={handleSubmit} className="text-white rounded-md outline bg-[#4FE143] border-0 py-2 px-6  hover:bg-white hover:text-[#4FE143] text-lg">
+      <button onClick={handleSubmit} className="text-white rounded-md outline bg-[#0014a8] border-0 py-2 px-6  hover:bg-white hover:text-[#0014a8] text-lg">
         submit
       </button>
     </div>

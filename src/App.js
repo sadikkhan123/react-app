@@ -10,7 +10,7 @@ function App() {
 
   return (
    
-       <div className="bg-[#121316] overflow-hidden">
+       <div className=" overflow-hidden mx-auto">
     <Navbar />
     <Hero/>
     <Hero2/>
