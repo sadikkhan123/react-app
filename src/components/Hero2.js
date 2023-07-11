@@ -5,7 +5,7 @@ const Hero2 = () => {
   return (
     <>
     {/* about section just below the main hero section */}
-      <section className="text-gray-600 body-font mx-auto mb-24" id='about '>
+      <section className="text-gray-600 body-font mx-auto mb-24 bg-slate-200 p-6" id='about '>
         <div className="  flex md:flex-row flex-col-reverse items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-5 md:mb-0 px-10">
 <img  src={img2} alt="Logo"/>
