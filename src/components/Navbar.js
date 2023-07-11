@@ -35,7 +35,7 @@ const Navbar = () => {
           <a href='cv.pdf'download><button className=" text-white ml-4 outline inline-flex bg-[#0014a8]  py-2 px-6 focus:outline-none rounded-full text-sm  hover:bg-white hover:text-[#0014a8]">Download cv</button></a>
         </ul>
         
-        <div onClick={handleMenu} className='md:hidden p-2'>
+        <div onClick={handleMenu} className='md:hidden px-4'>
           {!menu ? <i className="fa-solid fa-bars"></i> : <i className="fa-solid fa-close"></i>}
 
         </div>
