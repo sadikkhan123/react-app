@@ -11,12 +11,12 @@ const Hero2 = () => {
 <img src={img2} alt="Logo"/>
 
            </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center ">
-          <h2 className="title-font sm:text-2xl text-3xl md:mb-4 font-medium text-justify justify-center  text-[#0014a8]">
+          <div className="lg:flex-grow md:w-1/2 sm:p-0 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center  ">
+          <h2 className=" md:text-[40px] sm:text-3xl text-center title-font text-3xl md:mb-4 font-medium  text-[#0014a8]">
             
        A bit more about me !
       </h2>
-      <p className="mb-8 leading-relaxed  w-2/3 justify-center  ">{data.hero2.desc}</p>
+      <p className="sm:text-2xl md:text-[20px] p-0 mb-8 leading-relaxed  w-2/3     ">{data.hero2.desc}</p>
      
       <div className="flex lg:flex-row md:flex-col">
      
