@@ -1,4 +1,6 @@
 import React from 'react'
+import {AiFillLinkedin,AiFillInstagram,AiFillGithub} from "react-icons/ai"
+import { FaBeer } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -38,9 +40,12 @@ const Footer = () => {
         </svg>
       </p>
     </a>
-    <p className=" justify-center text-sm  sm:ml-4 sm:pl-4 sm:mt-0 mt-4 ">
-      this website is built on react.js a js library
-    </p>
+    <div className='flex gap-4'>
+    <a href='https://www.linkedin.com/in/sadik-khan-4b3ba9255/'><AiFillLinkedin size={35}/></a>
+          <a href='https://github.com/sadikkhan123/'><AiFillGithub size={35}/></a>
+          <a href='https://www.instagram.com/sadikkhan_007/'><AiFillInstagram size={35}/></a>
+         
+          </div> 
   </div>
 </footer>
 

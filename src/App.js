@@ -6,6 +6,8 @@ import Hero from "./components/Hero";
 import Hero2 from "./components/Hero2";
 import Navbar from "./components/Navbar";
 import Skill from "./components/Skill";
+import Projects from './components/Projects'
+import Timeline from "./components/Timeline";
 function App() {
 
   return (
@@ -15,6 +17,8 @@ function App() {
     <Hero/>
     <Hero2/>
     <Skill/>
+    <Projects/>
+    <Timeline/>
     <Contact/>
     <Footer/>
 

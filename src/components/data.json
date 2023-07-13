@@ -1,8 +1,40 @@
 {
-    "hero":{
+    "hero": {
         "desc": "fullstack web developer,enthusiastic web framework user and a creative ui ux designer currently shaping my,future in software development by contrubuting as much as i can and via using new web technologies and frameworks"
     },
-    "hero2":{
+    "hero2": {
         "desc": "As a web developer i started making some web sites static websites using html css and JavaScript but never thought that there is alot going into the development process and javascript is so powerfull as i started development i come across these js frame works which help me in my development process even as of now i am learning aslo backend has so many things to do in web development with so many languages and frameworks like php has (laravel, CodeIgniter, cakephp, etc) Python(fastapi, django, flask) javascript(nodejs, expressjs, nestjs..) etc...."
-    }
+    },"timeline":[{
+        "name": "intern",
+"desc":"intern at broadstairs it solutions "
+    },{
+    "name": "intern",
+    "desc":"intern at broadstairs it solutions "
+        },{ "name": "intern",
+        "desc":"intern at broadstairs it solutions "
+            },{ "name": "intern",
+            "desc":"intern at broadstairs it solutions "
+                } ],
+    "projects": [
+        {
+            "name": "Fia enterprises",
+            "img": "https://firebasestorage.googleapis.com/v0/b/portfolio-2c006.appspot.com/o/Screenshot%202023-07-11%20130053.png?alt=media&token=6bac38f5-c10d-457b-bd0b-a723ee020df2",
+            "desc":"A bus booking website "
+        },
+        {
+            "name": "E-market",
+            "img": "https://firebasestorage.googleapis.com/v0/b/portfolio-2c006.appspot.com/o/Screenshot%202023-07-11%20130143.png?alt=media&token=cff73744-71b7-43e1-bff9-3013efe326ec",
+            "desc":"A e-commerce project "
+        },
+        {
+            "name": "sk tailor",
+            "img": "https://firebasestorage.googleapis.com/v0/b/portfolio-2c006.appspot.com/o/Screenshot%202023-07-11%20130303.png?alt=media&token=62ed287e-540e-4f31-b3f9-6e7e50688e0b",
+            "desc":"A tailor website "
+        },
+        {
+            "name": "counter",
+            "img": "https://firebasestorage.googleapis.com/v0/b/portfolio-2c006.appspot.com/o/Screenshot%202023-07-11%20130344.png?alt=media&token=ca93d230-ee47-4cd6-81a4-1a9f97ce4cd3",
+            "desc": "A react js counter "
+        }
+    ]
 }
